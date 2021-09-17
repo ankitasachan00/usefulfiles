@@ -4,6 +4,4 @@ services:
         image: kodekloud/webapp-color
         ports:
             - 43652:8080
-        deploy:
-            replicas: 3
-            restart_policy: on-failure
+        
