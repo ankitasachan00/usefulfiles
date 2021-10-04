@@ -3,4 +3,4 @@ version: '3'
 services:
 
   public:
-    image: nginx
+    image: nginx:1.14.2
